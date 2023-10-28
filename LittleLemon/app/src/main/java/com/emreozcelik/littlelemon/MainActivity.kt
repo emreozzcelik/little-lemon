@@ -76,34 +76,5 @@ fun MyNavigation(navController: NavHostController, database: AppDatabase){
         Navigation(navController,database)
 }
 
-/*@Composable
-private fun MenuItemsList(items: List<MenuItemRoom>) {
-    LazyColumn(
-        modifier = Modifier
-            .fillMaxHeight()
-            .padding(top = 20.dp)
-    ) {
-        items(
-            items = items,
-            itemContent = { menuItem ->
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Text(menuItem.title)
-                    Text(
-                        modifier = Modifier
-                            .weight(1f)
-                            .padding(5.dp),
-                        textAlign = TextAlign.Right,
-                        text = "%.2f".format(menuItem.price)
-                    )
-                }
-            }
-        )
-    }
-}
-*/
-
 
 

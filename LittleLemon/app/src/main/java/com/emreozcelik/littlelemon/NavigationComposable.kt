@@ -24,5 +24,4 @@ fun Navigation(navController: NavHostController, database: AppDatabase) {
            Home(navController,database)
         }
     }
-
 }
